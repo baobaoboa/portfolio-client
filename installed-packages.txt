@@ -1,0 +1,6 @@
+npm i prop-types
+npm i react-router-dom
+
+npm i autoprefixer
+npm i tailwindcss
+npm i fluid-tailwind
