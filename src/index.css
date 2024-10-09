@@ -1,3 +1,37 @@
+/* # ~ ~ ~ ~ ~ # # ~ ~ ~ ~ ~ # TAILWIND # ~ ~ ~ ~ ~ # # ~ ~ ~ ~ ~ # */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* # ~ ~ ~ ~ ~ # # ~ ~ ~ ~ ~ # FONTS # ~ ~ ~ ~ ~ # # ~ ~ ~ ~ ~ # */
+@import url("https://fonts.googleapis.com/css2?family=Antic&family=Marvel&family=Oswald:wght@500&display=swap");
+
+.oswald-medium {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.marvel-regular {
+  font-family: "Marvel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.antic-regular {
+  font-family: "Antic", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* # ~ ~ ~ ~ ~ # # ~ ~ ~ ~ ~ # CSS # ~ ~ ~ ~ ~ # # ~ ~ ~ ~ ~ # */
+.bg-color {
+  background: #262626;
+}
+
+.card-neumorphism {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #292929, #222222);
+  box-shadow:
+    5px 5px 10px #202020,
+    -5px -5px 10px #2c2c2c;
+}
