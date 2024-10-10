@@ -1,6 +1,6 @@
 import Skill from "../components/Skill";
 
-import Resume from "../files/resume.pdf";
+import Resume from "../pdf/resume.pdf";
 
 export default function Hero() {
   const skills = [
