@@ -3,3 +3,4 @@ npm i tailwindcss
 npm i fluid-tailwind
 
 npm i react-photo-view
+npm i react-lazy-load-image-component
