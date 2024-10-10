@@ -1,5 +1,7 @@
 import Skill from "../components/Skill";
 
+import Resume from "../files/resume.pdf";
+
 export default function Hero() {
   const skills = [
     {
@@ -53,6 +55,15 @@ export default function Hero() {
             title="in/lorenz-jedd-alvarez/"
           >
             Linkedin
+          </a>
+          <a
+            href={Resume}
+            rel="noopener noreferrer"
+            target="_blank"
+            className="~text-xs/sm"
+            title="Resume"
+          >
+            Resume
           </a>
         </div>
       </div>
