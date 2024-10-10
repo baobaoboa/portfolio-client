@@ -12,16 +12,12 @@ interface WorkProp {
   role: string;
   description: string;
   technologies: string;
-  link: string;
   images: Image[];
 }
 
 export default function ProjectHighlight(props: WorkProp) {
   return (
-    <div
-      className="card-neumorphism transition-all ~p-4/8 hover:scale-105"
-      title={props.link ? props.link : "No link to project."}
-    >
+    <div className="card-neumorphism transition-all ~p-4/8 hover:scale-105">
       <p className="oswald-medium ~text-xl/4xl">{props.project}</p>
       <p className="marvel-regular text-gray-400 ~text-xs/sm ~pb-2/4">
         {props.role}

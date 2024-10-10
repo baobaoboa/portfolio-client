@@ -41,8 +41,7 @@ export default function Content() {
       description:
         "Developed a web-based application to optimize Carabao mango precision farming, enhancing post-harvest efficiency and decision-making through data-driven technology.",
       technologies:
-        "ReactJS, Flask, TailwindCSS, MySQL, YOLOv8 Nano-object Detection Model, Multiple Linear Regression",
-      link: "",
+        "ReactJS, Flask, TailwindCSS, MySQL, YOLOv8-Nano Object Detection Model, Multiple Linear Regression",
       images: [
         {
           src: SmartMango1,
@@ -65,7 +64,6 @@ export default function Content() {
         "Developed web and Android applications to help users manage their finances by analyzing spending habits and suggesting budget allocations for informed decision-making and smarter spending.",
       technologies:
         "PHP, HTML, Bootstrap, jQuery, XML, Java, MySQL, Oracle Cloud",
-      link: "",
       images: [
         {
           src: iPitaka1,
@@ -89,9 +87,9 @@ export default function Content() {
 
   return (
     <section className="w-full space-y-8 text-white sm:~py-12/[5rem] sm:~pr-12/[5rem]">
-      {/* WORK EXPERIENCE */}
-      <div id="#work-experience" className="space-y-4">
-        <p className="oswald-medium uppercase">Work Experience</p>
+      {/* WORK EXPERIENCES */}
+      <div id="#work-experiences" className="space-y-4">
+        <p className="oswald-medium uppercase">Work Experiences</p>
 
         <div className="space-y-6">
           {workExperiences.map((work, index) => (
