@@ -1,7 +1,7 @@
 interface WorkProp {
   role: string;
   location: string;
-  description: string;
+  description: string | string[];
 }
 
 export default function WorkExperience(props: WorkProp) {
@@ -11,7 +11,15 @@ export default function WorkExperience(props: WorkProp) {
       <p className="marvel-regular text-gray-400 ~text-xs/sm ~pb-2/4">
         {props.location}
       </p>
-      <p className="antic-regular ~text-sm/base">{props.description}</p>
+      {Array.isArray(props.description) ? (
+        <ul className="antic-regular list-inside ~text-sm/base">
+          {props.description.map((item, idx) => (
+            <li key={idx}>- {item}</li>
+          ))}
+        </ul>
+      ) : (
+        <p className="antic-regular ~text-sm/base">{props.description}</p>
+      )}
     </div>
   );
 }

@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="~pb-8/12">
           <p className="oswald-medium ~text-4xl/7xl">Lorenz Jedd</p>
           <p className="marvel-regular ~text-xl/4xl ~pb-4/8">
-            Junior Programmer
+            Software Developer
           </p>
           <p className="antic-regular w-3/4 text-gray-400 ~text-sm/base">
             I am a developer driven by creativity and a passion for

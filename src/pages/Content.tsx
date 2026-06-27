@@ -15,6 +15,14 @@ import iPitaka4 from "../images/ipitaka_4.png";
 export default function Content() {
   const workExperiences = [
     {
+      role: "Software Developer I → II",
+      location: "Systems and Software Consulting Group, Inc.",
+      description: [
+        "Contributed to backend and frontend development of an AML compliance platform using ASP.NET MVC 5 and SQL Server.",
+        "Led enhancements in identity management, real-time reporting, and Azure integrations to strengthen financial compliance workflows.",
+      ],
+    },
+    {
       role: "IT Development Engineer Intern",
       location: "International School Manila",
       description:
@@ -35,6 +43,15 @@ export default function Content() {
   ];
 
   const projectHighlights = [
+    {
+      project: "Integral360",
+      role: "Full Stack Developer",
+      description:
+        "Developed and enhanced a web-based AML compliance platform using ASP.NET MVC 5, implementing secure identity integration, real-time reporting, and data-driven workflows to support financial compliance operations.",
+      technologies:
+        "C# .NET Framework 4.7, ASP.NET MVC 5, SQL Server, NHibernate, jQuery/Knockout.js, Bootstrap, SignalR, SSRS, Azure Storage/Email",
+      images: [],
+    },
     {
       project: "SmartMango",
       role: "Full Stack Developer",
