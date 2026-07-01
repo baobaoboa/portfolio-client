@@ -15,30 +15,44 @@ import iPitaka4 from "../images/ipitaka_4.png";
 export default function Content() {
   const workExperiences = [
     {
-      role: "Software Developer I → II",
-      location: "Systems and Software Consulting Group, Inc.",
+      role: "Software Developer II",
+      location: "Systems and Software Consulting Group Inc. – Makati City, PH",
+      date: "Nov 2024 – Present",
       description: [
-        "Contributed to backend and frontend development of an AML compliance platform using ASP.NET MVC 5 and SQL Server.",
-        "Led enhancements in identity management, real-time reporting, and Azure integrations to strengthen financial compliance workflows.",
+        "Promoted from Developer I → II for strong performance and leadership.",
+        "Engineered scalable in-house applications and delivered compliance system fixes.",
+        "Mentored new developers and streamlined cross-team collaboration.",
       ],
     },
     {
       role: "IT Development Engineer Intern",
-      location: "International School Manila",
-      description:
-        "Developed a responsive, cross-browser website for listing professionals using ReactJS, Zustand, and Bootstrap, improving accessibility and user experience.",
+      location: "International School Manila – Taguig City, PH",
+      date: "Mar 2024 – Jul 2024",
+      description: [
+        "Built an accessible, responsive professional listing website.",
+        "Implemented ReactJS + Zustand with Bootstrap for modern UI.",
+        "Improved data accessibility and user experience across devices.",
+      ],
     },
     {
       role: "Software Developer",
-      location: "JIMAC Incorporated",
-      description:
-        "Developed solutions to improve data handling and system integration, including a File Checker, Point of Sales System, and Table Extractor, streamlining operations and data processing.",
+      location: "JIMAC Incorporated – Quezon City, PH",
+      date: "Mar 2023 – Mar 2024",
+      description: [
+        "Developed File Checker, POS System, and Table Extractor tools.",
+        "Enhanced data processing efficiency and system integration.",
+        "Delivered project-based solutions improving operational workflows.",
+      ],
     },
     {
       role: "Database Documenter",
-      location: "JIMAC Incorporated",
-      description:
-        "Documented and organized database structures, providing clear descriptions and visualizing connections to improve accuracy and ease of management.",
+      location: "JIMAC Incorporated – Quezon City, PH",
+      date: "Aug 2014 – Sept 2020",
+      description: [
+        "Documented and organized database structures for clarity.",
+        "Created detailed schema descriptions and visualized table relationships.",
+        "Improved documentation accuracy, enabling faster onboarding and analysis.",
+      ],
     },
   ];
 

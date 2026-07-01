@@ -6,7 +6,7 @@ export default function Hero() {
   const skills = [
     {
       title: "Languages",
-      description: "Java, C++ / CLI, VB.Net, HTML, CSS, JavaScript, PHP ",
+      description: "Java, C++ / CLI, VB.Net, HTML, CSS, JavaScript",
     },
     {
       title: "Technologies",
