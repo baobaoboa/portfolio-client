@@ -58,6 +58,15 @@ export default function Content() {
 
   const projectHighlights = [
     {
+      project: "AML Project",
+      role: "Full Stack Developer",
+      description:
+        "Developed and enhanced a web-based AML compliance platform using ASP.NET MVC 5, implementing secure identity integration, real-time reporting, and data-driven workflows to support financial compliance operations.",
+      technologies:
+        "C# .NET Framework 4.7, ASP.NET MVC 5, SQL Server, NHibernate, jQuery/Knockout.js, Bootstrap, SignalR, SSRS, Azure Storage/Email",
+      images: [],
+    },
+    {
       project: "SmartMango",
       role: "Full Stack Developer",
       description:
